@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+.profile-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.header {
+  border-bottom: 3px solid #eaeaea;
+  padding-bottom: 30px;
+}
+
+.profile-info {
+  display: flex;
+  padding: 10px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+
+.details{
+  margin-top: 20px;
+  margin-left: 50px;
+  flex: 1;
+}
+
+.details2 {
+  flex: 1;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  margin: 5px 0;
+}
+
+.stat {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.follow-btn, .message-btn, .more-btn {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.follow-btn {
+  background-color: #3897f0;
+  border-radius: 10%;
+  text-align: center;
+  width: 125px;
+  height: 50px;
+
+}
+
+.message-btn {
+  margin-left: 5px;
+  order: 1;
+  text-align: center;
+  width: 125px;
+  height: 50px;
+}
+.more-btn{
+  margin-left: 5px;
+  order: 1;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+
+.followers-info {
+  margin-top: 5px;
+}
+
+.stor {
+  text-align: center;
+} 
+
+.stories {
+  display: flex;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.story {
+  text-align: center;
+}
+
+
+
+
+.story img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.post {
+  width: calc(33.33% - 5px);
+}
+
+.post img {
+  width: 165px;
+  object-position: cover;
+  position: relative;
+  color: #fff;
+  cursor: pointer
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  gap: 4 rem;
+  justify-content: space-around;
+  background-color: rgb(170, 154, 154);
+  border-top: 1px solid #eaeaeadc;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  font-size: 1em;
+  padding: 10px 0;
+  cursor: pointer
+}
+
+.nav-btn:hover {
+  background-color: #eaeaea;
+}
